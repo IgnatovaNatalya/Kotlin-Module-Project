@@ -1,0 +1,1 @@
+class Command(val name:String, val lambda: () ->Unit)
