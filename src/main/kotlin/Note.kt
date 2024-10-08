@@ -5,7 +5,7 @@ class Note(title: String, private val text: String) : Archive(title) {
         println("Текст заметки: \n $text")
         while (!end) {
             println("\nВведите 0 для выхода:")
-            if (readInput() == 0) end = true
+            if (readNumber() == 0) end = true
         }
     }
 }
