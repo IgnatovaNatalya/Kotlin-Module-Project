@@ -1,0 +1,1 @@
+class MainMenu(name:String):Menu<Archive>(name, "архив", ::createArchive)
